@@ -30,7 +30,7 @@ Build for a specific platform:
 $ docker buildx bake --set binary.platform=linux/arm64 
 ```
 
-Build dynamic binary for glibc or musl:
+Build dynamic binary  for glibc or musl:
 
 ```
 $ USE_GLIBC=1 docker buildx bake dynbinary 
